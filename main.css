@@ -1,0 +1,52 @@
+body {
+    background-color: aqua ;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-width: 15px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 30%;
+    border-color: burlywood;
+}
+h1, h2, h3{
+    text-align: center;
+}
+
+ol {
+    display: block;
+    max-width: 500px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+li {
+    display: block;
+    max-width: 500px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+image {
+    display: block;
+    max-width: 500px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: auto
+    margin-left: auto;
+}
+
+p {
+    display: block;
+    max-width: 500px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
