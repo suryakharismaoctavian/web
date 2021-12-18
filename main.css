@@ -70,3 +70,10 @@ p {
     padding: 14px 16px;
     text-decoration: none;
 }
+.last-child {
+    float: right;
+}
+
+#navbar ul li:hover {
+    background-color: cadetblue;
+}
