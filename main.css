@@ -100,3 +100,11 @@ th,td {
 tr:hover {
     background-color: coral;
 }
+
+.footer {
+    background-color: darkcyan;
+    padding: 10px;
+    text-align: "center";
+    color:darkgrey;
+    margin-top: 15px;
+}
