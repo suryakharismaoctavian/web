@@ -109,4 +109,8 @@ tr:hover {
     text-align: "center";
     color:darkgrey;
     margin-top: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
