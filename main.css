@@ -139,7 +139,6 @@ tr:hover {
     align-items: center;
     margin-bottom: 100px;
 }
-
 .my-portofolio {
     display: flex;
     flex-direction: row;
@@ -190,4 +189,41 @@ input[type=button] {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    display: block;
+    color: bisque;
+    padding: 8px 16px;
+    text-decoration: none;
+    width: 200px;
+}
+
+.sidebar li :hover{
+    background-color: burlywood;
+    color: chocolate;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'side';
+    margin-bottom: 100px;
+}
+
+.grid-container img{
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.articles-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
