@@ -15,7 +15,8 @@
     window.alert("Angka favorit saya adalah :"+myNumber)
     window.alert('Angka favorit saya adalah :'+myNumber)
     window.alert(`Angka favorit saya adalah :${myNumber}`)
-
+    
+    //membuat variabel baru dan menerapkan operasi aritmatika
     let x = 8
 let y = 4
 console.log(x, y)
@@ -28,4 +29,18 @@ console.log('x++ =', x++)
 console.log('++x =', ++x)
 console.log('x-- =', x--)
 console.log('--x =', --x)
+
+//membuat variabel baru dan menampilkan di console
+let a = 7
+let b = 4
+console.log(x, y)
+console.log('a + b =', a + b)
+console.log('a - b =', a - b)
+console.log('a * b =', a * b)
+console.log('a / b =', a / b)
+console.log('a % b =', a % b)
+console.log('a++ =', a++)
+console.log('++a =', ++a)
+console.log('a-- =', a--)
+console.log('--a =', --a)
 
