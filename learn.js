@@ -1,4 +1,4 @@
-<script>
+
     //membuat variabel
     let myNumber = 16;
     let myString = "Hello"
@@ -16,4 +16,16 @@
     window.alert('Angka favorit saya adalah :'+myNumber)
     window.alert(`Angka favorit saya adalah :${myNumber}`)
 
-</script>
+    let x = 8
+let y = 4
+console.log(x, y)
+console.log('x + y =', x + y)
+console.log('x - y =', x - y)
+console.log('x * y =', x * y)
+console.log('x / y =', x / y)
+console.log('x % y =', x % y)
+console.log('x++ =', x++)
+console.log('++x =', ++x)
+console.log('x-- =', x--)
+console.log('--x =', --x)
+
