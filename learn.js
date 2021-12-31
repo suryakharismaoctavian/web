@@ -54,3 +54,27 @@ console.log('false || true =', false || true)
 console.log('false || false =', false || false)
 console.log('!true =', !true)
 console.log('!false =', !false)
+
+//menambahkan fungsi pada luas persegi
+function hitungLuasPersegi(sisi) {
+    var luas = sisi * sisi
+    return luas
+}
+var hasil_persegi = hitungLuasPersegi(15)
+console.log('Luas Persegi = '+hasil_persegi);
+
+//menambahkan fungsi pada luas segitiga
+function hitungLuasSegitiga(alas, tinggi) {
+    var luas = alas * tinggi
+    return luas
+}
+var hasil_segitiga = hitungLuasSegitiga(5, 15)
+console.log('Luas Segitiga = '+hasil_segitiga);
+
+//menambahkan fungsi pada volume balok
+function hitungVolumeBalok(panjang, lebar, tinggi) {
+    var volume = panjang * lebar * tinggi
+    return volume
+}
+var hasil_volumebalok = hitungVolumeBalok(15, 7, 9)
+console.log('Volume Balok = '+hasil_volumebalok);
