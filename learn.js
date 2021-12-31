@@ -78,3 +78,29 @@ function hitungVolumeBalok(panjang, lebar, tinggi) {
 }
 var hasil_volumebalok = hitungVolumeBalok(15, 7, 9)
 console.log('Volume Balok = '+hasil_volumebalok);
+
+//array nama negara
+var negara = ["Indonesia", "Vietnam", "Singapura", "Thailand"]
+
+//mengakses array berdasarkan indeks
+console.log(negara[0]);
+console.log(negara[1]);
+console.log(negara[2]);
+
+//menambahkan metode push
+negara.push("Filiphina")
+
+//menambahkan metode pop
+negara.pop()
+
+//menambahkan metode unshift
+negara.unshift("Kamboja")
+
+//menambahkan metode shift
+negara.shift()
+
+//menambahkan metode sort
+negara.sort()
+
+//menambahkan metode reverse
+negara.reverse()
