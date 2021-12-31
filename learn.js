@@ -104,3 +104,28 @@ negara.sort()
 
 //menambahkan metode reverse
 negara.reverse()
+
+//data pegawai
+let pegawai = {
+    ID: 1905101069,
+    Nama_awal:"Surya Kharisma",
+    Nama_akhir:"Octavian",
+    Jabatan: "HRD",
+    Nama_Lengkap: function () {
+        return this.Nama_awal + " " + this.Nama_akhir;
+    }
+}
+
+//menambahkan aksesoris dot notation
+console.log(pegawai.ID);
+console.log(pegawai.Nama_awal);
+console.log(pegawai.Nama_akhir);
+console.log(pegawai.Jabatan);
+console.log(pegawai.Nama_Lengkap());
+
+//menambahkan aksesoris bracket notation
+console.log(pegawai["ID"]);
+console.log(pegawai["Nama_awal"]);
+console.log(pegawai["Nama_akhir"]);
+console.log(pegawai["Jabatan"]);
+console.log(pegawai["Nama_Lengkap"]());
